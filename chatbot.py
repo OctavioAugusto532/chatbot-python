@@ -7,7 +7,7 @@ import tkinter as tk
 from datetime import datetime
 from tkinter import messagebox, font as tkfont
 from openai import OpenAI
-
+#troque essa chave da api open ai
 OPENAI_API_KEY = "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"
 client = OpenAI(api_key=OPENAI_API_KEY)
 DB_PATH = "saude.db"
@@ -330,3 +330,4 @@ class MessengerUI:
 
 if __name__ == "__main__":
     MessengerUI().run()
+
